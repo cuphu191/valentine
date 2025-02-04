@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine byy</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="laptop">
+        <h1>Tolong buka pakai HP</h1>
+    </div>
+    <h1 class="a" id="a"></h1>
+</body>
+<script>
+    let text = "Ditekan ya byy"
+    document.getElementById('a').innerText = text
+    const pindah = document.getElementById('a')
+    pindah.addEventListener('click', function(e){
+        document.getElementById('a').style.color = "red"
+        console.log("hi")
+        const text = "Waitt ya byyy❤️❤️"
+        document.getElementById('a').innerText = text
+        setTimeout(function() {
+            window.location.href = "https://www.google.com";
+      }, 3000);
+        
+    })
+</script>
+</html>
