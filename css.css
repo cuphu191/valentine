@@ -14,20 +14,20 @@
 @media (max-width: 768px){
     *{
         margin: 0px;
-        background-image:url(Valentine.jpg) ;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: transparent;
     }
     .laptop{
         visibility: hidden;
     }
-    .a{
+    .aa img{
+        color: pink;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .aa h1{
         color: pink;
         text-align: center;
-        position: relative;
-        top: 50vh;
         font-size: 40px;
     }
 }
