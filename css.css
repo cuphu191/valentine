@@ -15,10 +15,9 @@
     *{
         margin: 0px;
         background-image:url(Valentine.jpg) ;
-        background-position-x: center;
-        background-position-y: 1vh;
+        background-position: center;
         background-repeat: no-repeat;
-        background-size: 60%;
+        background-size: cover;
         background-color: transparent;
     }
     .laptop{
