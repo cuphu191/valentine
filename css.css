@@ -1,17 +1,17 @@
-@media (min-width: 769px){
+@media (max-width: 999px){
     *{
         background-color: blue;
     }
     h1{
         text-align: center;
         color: pink;
-        font-size: 200px;
+        font-size: 80px;
     }
-    .a{
+    .aa{
         visibility: hidden;
     }
 }
-@media (max-width: 768px){
+@media (min-width: 1000px){
     *{
         margin: 0px;
     }
@@ -20,14 +20,14 @@
     }
     .aa img{
         color: pink;
-        width: 200px;
-        height: 200px;
+        width: 500px;
+        height: 500px;
         display: flex;
         margin: 0 auto;
     }
     .aa h1{
         color: pink;
         text-align: center;
-        font-size: 40px;
+        font-size: 80px;
     }
 }
