@@ -10,23 +10,24 @@
     <div class="laptop">
         <h1>Tolong buka pakai Laptop</h1>
     </div>
-    <div class="aa">
-        <img src="Valentine.jpg" alt="">
-        <h1 id="a"></h1>
+    <div class="aa" id="aa">
+        <img src= "valentine2.jpg" id="b" alt="">
+        <h1 id="a" class="ba"></h1>
     </div>
     
 </body>
 <script>
     let text = "Ditekan ya byy"
     document.getElementById('a').innerText = text
-    const pindah = document.getElementById('a')
+    const pindah = document.getElementById('aa')
     pindah.addEventListener('click', function(e){
         document.getElementById('a').style.color = "red"
-        console.log("hi")
-        const text = "Waitt ya byyy❤️❤️"
+        console.log("test")
+        text = "Waitt ya byyy❤️❤️"
+        document.getElementById('b').src = "hatii.jpg"
         document.getElementById('a').innerText = text
         setTimeout(function() {
-            window.location.href = "https://www.google.com";
+            window.location.href = "hal2.html";
       }, 3000);
         
     })
